@@ -1,0 +1,39 @@
+
+#weather-widget {
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+}
+
+#current-weather {
+    text-align: center;
+}
+
+#location {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#temperature {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+#forecast {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecast-day {
+    text-align: center;
+    flex: 1;
+}
+
+.forecast-day p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
